@@ -12,14 +12,8 @@ const Header: React.FC<HeaderProps> = ({ actions }) => {
             <Container>
                 <Navbar.Brand>
                     <SvvLogo width='150px' height='50px' />
-                    Hello
                 </Navbar.Brand>
                 <Navbar.Text color='white'>Registeret</Navbar.Text>
-                {/* <Navbar.Collapse className='app-header-actions'>
-                    {actions?.map((action, i) => (
-                        <Navbar.Text key={i}>{action}</Navbar.Text>
-                    ))}
-                </Navbar.Collapse> */}
             </Container>
         </Navbar>
     );
